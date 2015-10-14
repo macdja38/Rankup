@@ -41,7 +41,7 @@ public class Ranks {
             r.contains(plugin, p);
             return r;
         }
-        return ranks.get(ranks.size() - 1);
+        return ranks.get(0);
     }
 
     @Override
